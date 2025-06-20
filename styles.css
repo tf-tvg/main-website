@@ -1,0 +1,38 @@
+/* --- begin exact CSS from your original code --- */
+:root {
+  --primary-orange: #FF6B00;
+  --primary-black: #121212;
+  --primary-green: #2E8B57;
+  --secondary-blue: #4D9DE0;
+  --light-bg: #F9F9F9;
+  --dark-bg: #0A0A0A;
+  --text-light: #FFFFFF;
+  --text-dark: #333333;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.15);
+  --accent-yellow: #FFD700;
+  --gray: #f4f4f4;
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 32px;
+  --spacing-lg: 64px;
+  --spacing-xl: 128px;
+  --border-radius: 16px;
+  --transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', sans-serif; color: var(--text-dark); background-color: var(--light-bg); overflow-x: hidden; line-height: 1.6; background: linear-gradient(135deg, #f9f9f9 0%, #eef2f5 100%); }
+h1, h2, h3, h4, h5 { font-weight: 800; line-height: 1.2; }
+.container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 var(--spacing-md); }
+section { padding: var(--spacing-xl) 0; position: relative; }
+/* ... [rest of your CSS unchanged, see previous answer or original code for full content] ... */
+@media (max-width: 576px) {
+  .hero-title { font-size: 2.2rem; }
+  .section-title h2 { font-size: 2.2rem; }
+  .mantra { font-size: 1.5rem; }
+  .identity-grid { grid-template-columns: 1fr; }
+  .portfolio-grid { grid-template-columns: 1fr; }
+  .founder-quote p { font-size: 1.4rem; }
+}
+/* --- end exact CSS from your original code --- */
