@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TenOne Venture Group | One Group. Many Stories. One Vision.</title>
+  <meta name="description" content="TenOne Venture Group: African-born, multi-division powerhouse trusted by Disney, Nando's, Engen, and more. Turning stories into brands, culture, and impact.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header style="background-color: rgba(18, 18, 18, 0.95); padding: 0px;">
+    <div class="container header-container">
+      <div class="logo">
+        <div class="logo-circle"></div>
+        <div class="logo-text">TEN<span>ONE</span></div>
+      </div>
+      <nav>
+        <ul id="navMenu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#story">Our Story</a></li>
+          <li><a href="#divisions">Divisions</a></li>
+          <li><a href="#work">Our Work</a></li>
+          <li><a href="#partner">Partner</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+      <a href="#contact" class="nav-cta">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-tagline">Where Culture Meets Creativity</div>
+        <h1 class="hero-title">One Group.<br>Many Stories.<br><span>One Vision.</span></h1>
+        <p class="hero-subtitle">Born in the township. Built for Africa. Trusted by the world's most iconic brands. We turn real stories into culture, markets, and movement—while staying true to our roots.</p>
+        <div class="mantra">"Lay'khaya, YiShumi OKunye. OKunye YiShumi."</div>
+        <div class="hero-btns">
+          <a href="#divisions" class="btn btn-primary">Explore Our Divisions</a>
+          <a href="#contact" class="btn btn-outline">Start a Conversation</a>
+        </div>
+      </div>
+    </div>
+    <!-- Animated Background Elements -->
+    <div class="hero-shape shape-1"></div>
+    <div class="hero-shape shape-2"></div>
+  </section>
+
+  <!-- Client Logos Section -->
+  <section class="client-logos">
+    <div class="container">
+      <h3>Trusted by Africa's most iconic brands</h3>
+      <div class="client-logos-grid">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Disney_wordmark.svg" alt="Disney" class="client-logo">
+        <img src="https://1000logos.net/wp-content/uploads/2021/05/Nandos-logo.png" alt="Nando's" class="client-logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/McDonalds_2017_logo.svg" alt="McDonald's" class="client-logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Engen_logo.svg" alt="Engen" class="client-logo">
+        <img src="https://www.logo.wine/a/logo/Toyota/Toyota-Logo.wine.svg" alt="Toyota" class="client-logo" style="height:30px;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Spar_logo.svg" alt="SPAR" class="client-logo">
+      </div>
+    </div>
+  </section>
+
+  <!-- Vision & Mission Section -->
+  <section class="vision-mission">
+    <div class="container">
+      <h2>Our Vision &amp; Mission</h2>
+      <div class="vision-mission-content">
+        <div class="vision-box">
+          <h3>Vision</h3>
+          <p>To be Africa's most impactful, resilient, and innovative group—building legacy brands rooted in local stories and global ambition.</p>
+        </div>
+        <div class="mission-box">
+          <h3>Mission</h3>
+          <p>We empower African-born brands and communities by fusing culture, commerce, and creativity. We bring township energy, world-class innovation, and Ubuntu to every partner and project.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline Section -->
+  <section class="timeline-section" id="story">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Journey</h2>
+        <p>From humble beginnings to becoming a multi-division powerhouse</p>
+      </div>
+      <div class="timeline-container">
+        <div class="timeline-line"></div>
+        <div class="timeline">
+          <div class="timeline-card animate">
+            <strong>2013</strong>
+            <p>One man, a big dream, and the first campaign—born in the township.</p>
+          </div>
+          <div class="timeline-card animate">
+            <strong>2014–16</strong>
+            <p>First taxi media. National clients. Built trust with brands like Nando's &amp; Engen.</p>
+          </div>
+          <div class="timeline-card animate">
+            <strong>2017–19</strong>
+            <p>Expansion. Disney Africa's first mall campaign. MBA studies (UCT GSB).</p>
+          </div>
+          <div class="timeline-card dent animate">
+            <strong>2020</strong>
+            <p>Market disruption. Pandemic pause. Strategic reset.</p>
+          </div>
+          <div class="timeline-card animate">
+            <strong>2021–Today</strong>
+            <p>Rebuilt, reimagined. Multi-division powerhouse. 10+ brands. 1.2M+ shoppers/month reached.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Identity Section -->
+  <section class="identity">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Philosophy</h2>
+        <p>From AD.IT Solutions to TenOne Venture Group - a story of innovation, resilience, and African entrepreneurship</p>
+      </div>
+      <div class="identity-grid">
+        <div class="identity-card animate">
+          <div class="identity-icon">
+            <i class="fas fa-book-open"></i>
+          </div>
+          <h3>The Beginning</h3>
+          <p>TenOne Venture Group started its journey in 2012 as AD.IT Solutions, igniting innovation in eThekwini with AD.IT TAXI TV and outdoor media.</p>
+        </div>
+        <div class="identity-card animate">
+          <div class="identity-icon">
+            <i class="fas fa-hands-helping"></i>
+          </div>
+          <h3>Evolution</h3>
+          <p>From those early days, we've grown into a storytelling-driven media and marketing company, driven by our belief that every brand has a unique story.</p>
+        </div>
+        <div class="identity-card animate">
+          <div class="identity-icon">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <h3>Philosophy</h3>
+          <p>Inspired by "YiShumi OKunye. OKunye YiShumi" (You can't have ten without one), we believe that each person, effort, and story contributes to the whole.</p>
+        </div>
+        <div class="identity-card animate">
+          <div class="identity-icon">
+            <i class="fas fa-heart"></i>
+          </div>
+          <h3>Vision</h3>
+          <p>As a 100% black youth-owned company, we stand as a testament to the power of representation, diversity, and entrepreneurship.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divisions Section -->
+  <section class="divisions" id="divisions">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Divisions</h2>
+        <p>Each venture under the TenOne umbrella contributes uniquely to our collective vision</p>
+      </div>
+      <div class="divisions-grid">
+        <div class="division-card animate">
+          <div class="division-icon">
+            <i class="fas fa-bullhorn"></i>
+          </div>
+          <h3>realActivationx</h3>
+          <p>Branded experiences where physical meets digital. Demos, sign-spinning, flyer drops, and more. <strong>Turned Nando's Churros into a viral national trend.</strong></p>
+          <a href="/realactivationx" class="division-link">Explore Division</a>
+        </div>
+        <div class="division-card animate">
+          <div class="division-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Xcolab Africa</h3>
+          <p>The McKinsey for SMMEs. Compliance, CIPC, mentorship, VAT, strategy, and enterprise development. <strong>Gave real access, not just exposure.</strong></p>
+          <a href="/xcolab-africa" class="division-link">Grow Your Business</a>
+        </div>
+        <div class="division-card animate">
+          <div class="division-icon">
+            <i class="fas fa-print"></i>
+          </div>
+          <h3>Printala</h3>
+          <p>In-house signage, gifting, banners, gazebos, and corporate gifting powered by HP Latex printing. <strong>Powered Disney's Umlazi campaign with local print talent.</strong></p>
+          <a href="/printala" class="division-link">See Catalogue</a>
+        </div>
+        <div class="division-card animate">
+          <div class="division-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3>Congrads</h3>
+          <p>Premium graduation gifting with QR-activated scrolls. Where graduation meets storytelling. <strong>Made graduation gifting a national movement.</strong></p>
+          <a href="/congrads" class="division-link">Visit Site</a>
+        </div>
+        <div class="division-card animate">
+          <div class="division-icon">
+            <i class="fas fa-building"></i>
+          </div>
+          <h3>TenXHouse</h3>
+          <p>Physical HQ &amp; community lab in Linden. Bookings, events, coworking, and creative hub. <strong>Home of the TenOne family.</strong></p>
+          <a href="/tenxhouse" class="division-link">Join Us</a>
+        </div>
+        <div class="division-card animate">
+          <div class="division-icon">
+            <i class="fas fa-tint"></i>
+          </div>
+          <h3>SCAWATER</h3>
+          <p>Low-cost bottled water + digital marketing campaigns. Retail &amp; activation fusion. <strong>Hydrate, activate, and connect communities.</strong></p>
+          <a href="/scawater" class="division-link">Explore SCAWATER</a>
+        </div>
+        <div class="division-card animate">
+          <div class="division-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>realDevs</h3>
+          <p>QR tools, Zoho apps, CRM flows, dashboards, automation, and AI-powered business solutions. <strong>Building African technology for African business.</strong></p>
+          <a href="/data" class="division-link">See Solutions</a>
+        </div>
+        <div class="division-card animate">
+          <div class="division-icon">
+            <i class="fas fa-hashtag"></i>
+          </div>
+          <h3>Socializa</h3>
+          <p>Social media campaigns, strategy, content production, and influencer activation. <strong>Powered by homegrown creators and digital rebels.</strong></p>
+          <a href="/socializa" class="division-link">Get Social</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Section -->
+  <section class="work" id="work">
+    <div class="container">
+      <div class="work-header">
+        <h2>Our Impactful Work</h2>
+        <p>We've created memorable campaigns for some of the most recognizable brands, bringing stories to life across South Africa and beyond.</p>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80" alt="Nando's Sunday Lunch" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h3>Nando's Sunday Lunch</h3>
+            <p>Cross-division campaign combining Printala, realActivationx, and Xcolab Africa</p>
+            <a href="#" class="btn btn-outline">View Case Study</a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80" alt="McDonald's Big Mac" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h3>McDonald's Big Mac 50th</h3>
+            <p>Radio takeover celebrating 50 years of the iconic Big Mac</p>
+            <a href="#" class="btn btn-outline">View Case Study</a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80" alt="Activate The City" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h3>Activate The City</h3>
+            <p>Transforming urban spaces through art and cultural experiences</p>
+            <a href="#" class="btn btn-outline">View Case Study</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Founder Quote Section -->
+  <section class="founder-quote">
+    <div class="container">
+      <div class="founder-content">
+        <div class="founder-image">
+          <i class="fas fa-user"></i>
+        </div>
+        <p>
+          "We built TenOne from nothing but faith, a borrowed laptop, and a township dream. Our impact is lived, not claimed. Join the family—let's make your brand part of African history."
+        </p>
+        <strong>Nhlakanipho Shange, Founder &amp; CEO</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-about">
+          <div class="logo">
+            <div class="logo-circle"></div>
+            <div class="logo-text">TEN<span>ONE</span></div>
+          </div>
+          <p>We are a collective of African-born ventures building the future of commerce, culture, and creativity.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#divisions">Divisions</a></li>
+            <li><a href="#work">Our Work</a></li>
+            <li><a href="#partner">Partner With Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Our Divisions</h3>
+          <ul class="footer-links">
+            <li><a href="/realactivationx">realActivationx</a></li>
+            <li><a href="/xcolab-africa">Xcolab Africa</a></li>
+            <li><a href="/printala">Printala</a></li>
+            <li><a href="/congrads">Congrads</a></li>
+            <li><a href="/tenxhouse">TenXHouse</a></li>
+            <li><a href="/scawater">SCAWATER</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-contact">
+          <h3>Contact Us</h3>
+          <p><i class="fas fa-map-marker-alt"></i> TenXHouse, Linden, Johannesburg, SA</p>
+          <p><i class="fas fa-phone"></i> +27 66 147 2533</p>
+          <p><i class="fas fa-envelope"></i> hello@tenone.co.za</p>
+          <p><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 5:00 PM</p>
+          <div class="hero-btns" style="margin-top: 20px;">
+            <a href="https://wa.me/27661472533" class="btn btn-primary">
+              <i class="fab fa-whatsapp"></i> WhatsApp Us
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2025 TenOne Venture Group. All Rights Reserved. "Lay'khaya, YiShumi OKunye. OKunye YiShumi."</p>
+        <p style="margin-top: 0.5rem;">Made in South Africa 🇿🇦 | Powered by TenXHouse | 135% B-BBEE Procurement</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
